@@ -1,0 +1,246 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> <!-- Indica que meu site está em português brasileiro -->
+    <head>
+        <title>BS</title>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+        <link rel="stylesheet" type="text/css" href="css/style1.css">
+        <script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+        <script src="https://rawgit.com/RobinHerbots/Inputmask/5.x/dist/jquery.inputmask.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Cabin&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/452c2c370f.js" crossorigin="anonymous"></script>
+        <script defer src="js/scripts.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.0.min.js"></script>
+        <script src="https://rawgit.com/RobinHerbots/Inputmask/5.x/dist/jquery.inputmask.js"></script>
+
+    </head>
+    <body>
+        <div class="sub-header"> 
+             <div><a href="franq.html">Seja Franquiado</a></div>
+            <div><a href="trab.html?#">Trabalhe Conosco</a></div>
+        </div>
+        <header class="main-header">
+            <div class="container-header">
+                <div class="logo-header">
+                    <a href="index.html"><img src="img/logoBSprimario.svg"></a>
+                </div>
+                <nav class="menu-nav">
+                    <ul>
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="quem-somos.html">Quem Somos</a>
+                        </li>
+                        <li>
+                            <a href="tratamentos.html">Tratamentos</a>
+                        </li>
+                        <li>
+                            <a href="agendar.html?#">Agendamento</a>
+                        </li>
+                        <li>
+                            <a href="contato.html">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <main>
+            <div class="containerdoscontainers">
+                <div class="container-franq" >
+                    <div class="container-logotext">
+                    <h1><span id="textlogow-B">Beau</span><span id="textlogow-S">Sourire</span> A clínica em ascenção no Brasil</h1>
+                    </div>
+                    <div class="container-form">
+                    
+                        <div class="titulo">Conheça mais sobre nosso modelo de franquia</div>
+                        <div class="descricao">Preencha o formulário para receber nossa apresentação e ficar por dentro de como se tornar um franquiado</div>
+                        <form action="" id="form">
+                            <div class="detalhes-usuario">
+                                <div class="input-box ">
+                                    <span class="detalhes">Nome Completo</span>
+                                    <input type="text" placeholder="Coloque seu nome completo" required id="nome">
+                                </div>
+                                <div class="input-box ">
+                                    <span class="detalhes">Email</span>
+                                    <input type="email" placeholder="Coloque Endereço de Email" required id="email">
+            
+                                </div>
+                                <div class="input-box">
+                                    <span class="detalhes">Telefone</span>
+                                    <input type="text" placeholder="Coloque seu número de telefone" required id="tel" pattern="(\([0-9]{2}\))\s([9]{1})?([0-9]{5})-([0-9]{4})">
+                                </div>
+                                <div class="input-box">
+                                    <span class="detalhes">Estado</span>
+                                    <select  id="estado">
+                                        <option >Selecione</option>
+                                        <option value="AC">AC</option>
+        
+                                        <option value="AL">AL</option>
+                                        
+                                        <option value="AP">AP</option>
+                                        
+                                        <option value="AM">AM</option>
+                                        
+                                        <option value="BA">BA</option>
+                                        
+                                        <option value="CE">CE</option>
+                                        
+                                        <option value="DF">DF</option>
+                                        
+                                        <option value="ES">ES</option>
+                                        
+                                        <option value="GO">GO</option>
+                                        
+                                        <option value="MA">MA</option>
+                                        
+                                        <option value="MT">MT</option>
+                                        
+                                        <option value="MS">MS</option>
+                                        
+                                        <option value="MG">MG</option>
+                                        
+                                        <option value="PA">PA</option>
+                                        
+                                        <option value="PB">PB</option>
+                                        
+                                        <option value="PR">PR</option>
+                                        
+                                        <option value="PE">PE</option>
+                                        
+                                        <option value="PI">PI</option>
+                                        
+                                        <option value="RJ">RJ</option>
+                                        
+                                        <option value="RN">RN</option>
+                                        
+                                        <option value="RS">RS</option>
+                                        
+                                        <option value="RO">RO</option>
+                                        
+                                        <option value="RR">RR</option>
+                                        
+                                        <option value="SC">SC</option>
+                                        
+                                        <option value="SP">SP</option>
+                                        
+                                        <option value="SE">SE</option>
+                                        
+                                        <option value="TO">TO</option>
+
+                                    </select>
+                                </div>
+                                <div class="input-box">
+                                    <span class="detalhes">O que você busca?</span>
+                                    <select required id="buscando" >
+                                        <option >Selecione</option>
+                                        <option value="Abrirclinica">Abrir uma clínica</option>
+                                        <option value="AL">Ser fornecedor da rede</option>
+                                    </select>
+                                </div>
+
+                            </div>
+                            
+                            <div class="button" >
+                                <input type="submit" value="Enviar" id="open" >
+                                </div>
+                            </div>
+
+
+                        </form>
+                </div>
+                <div class="container-pqbs">
+                    <div class="pqbs">
+
+                        <h2>Porque escolher a <span id="textlogo-B">Beau</span> <span id="textlogo-S">Sourire</span>?</h2>
+                        <ul>
+                        <li>Mais de 8 unidades próprias</li>
+                        <li>Mais de 300 unidades em todo Brasil</li>
+                        <li>Mais de 1 Milhão pacientes atendidos</li>
+                        <li>Mais de 33% dos franqueados em  &nbsp; posses de mais de uma unidade</li>
+                        </ul>
+                    </div>
+                    </div>
+
+                    <div class="pqbs2">
+
+                            <h2>Alta Rentabilidade</h2>
+                        <div class="pqbs2itens">
+                            <div>
+                                <h3>Faturamento</h3>
+                                <p>80 Mil/Mês</p>
+                            </div>
+                            <div>
+                                <h3>Lucro mensal superior a</h3>
+                                <p>24 Mil/Mês</p>
+                            </div>
+                            <div>
+                                <h3>Retono de investimento</h3>
+                                <p>Em até 30 meses</p>
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="pqbs3">
+
+                        <h2>Treinamento Único</h2>
+                        <p>A <span id="textlogow-B">B</span><span id="textlogow-S">S</span> oferece e ministra diversos cursos presenciais para toda a equipe das clínicas. E além dos cursos presenciais também contamos com uma plataforma para cursos EAD, facilitando assim, o contato com o conhecimento de onde quer que você esteja</p>
+
+                    </div>
+                    <div class="pqbs4">
+                        <h2>Benefícios</h2>
+                    <div class="pqbs4itens">
+                        <div>
+                            <i class="fas fa-hands-helping" id="pqicons"></i>
+                            <p>Equipe de suporte dedicada em ajudar cada clínica com base em sua região</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-funnel-dollar" id="pqicons"></i>
+                            <p>Produtos e serviços exclusivos, com estudo de renda média e hábitos de consumo da região.</p>
+                        </div>
+                        <div>
+                            <i class="fas fa-bullhorn" id="pqicons"></i>
+                            <p>Equipe de marketing especializada para diversas campanhas e publicidades</p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="pqbs2  pqbs5container">
+                        <h2>O que está esperando? Faça parte da <span id="textlogow-B">B</span><span id="textlogow-S">S</span></h2>
+                        <div class="pqbs5"><a href="#form">QUERO INVESTIR AGORA</a></div>
+                    </div>
+                </div>
+
+            </div>
+            </main>
+
+
+
+
+        <footer class="semmarg">
+            <div class="footer-content">
+                <div>
+                    <h2>Endereço</h2>
+                    <p>R. Iaiá, 126 Itaim Bibi. São Paulo</p>
+                    <p>CEP: 04524-060</p>
+                </div>
+                <div>
+                    <h2>Contato</h2>
+                    <p>(11) 23823-4925</p>
+                    <p>bscontato<span>@</span>gmail.com</p>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/beausouriredent" target="_blank"><img src="img/instaiconwhite.svg"></a>
+                    <a href="https://twitter.com/beausouriredent" target="_blank"><img src="img/twittericonwhite.svg" ></a>
+                    <a href="https://www.youtube.com/channel/UC8duK6PqsrVO9dSdvj3Sg2w" target="_blank"><img src="img/youtubeiconwhite.svg"></a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© COPYRIGHT 2021 <strong>BEAU SOURIRE</strong> | Todos os direitos reservados.</p>
+                <p>Desenvolvido por <a href="dev.html">Orca Code</a></p>
+
+            </div>
+        </footer>
+    </body>
+</html>
